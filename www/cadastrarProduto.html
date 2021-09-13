@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="lib/jquery-3.6.0.js"></script>
+  <script src="lib/jquery.mask.js"></script>
+  <script src="js/script.js"></script>
+  <script src="components/loader.js"></script>
+  <script src="lib/bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/bootstrap-5.1.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="images/p.png" id="logo" width="320" height="180">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 form-floating mb-3">
+        <input type="text" class="form-control" id="nomeProdu" placeholder="Product Name Example" style="height:2.5pc;">
+        <label style="margin-top:-0.7pc; margin-left:0.5pc;" for="produNome">Nome do produto</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 form-floating mb-3">
+        <input type="text" class="form-control" id="valProdu" placeholder="R$xx.xx" style="height:2.5pc;">
+        <label style="margin-top:-0.7pc; margin-left:0.5pc;" for="valProdu">Valor (R$)</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 form-floating mb-3">
+        <input type="number" class="form-control" id="quantProdu" placeholder="xxx" style="height:2.5pc;">
+        <label style="margin-top:-0.7pc; margin-left:0.5pc;" for="quantProdu">Quantidade</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <label style="margin-top:-0.7pc; margin-left:0.5pc;" for="imgProdu">Foto</label>
+        <input type="file" class="form-control-file" id="imgProdu" placeholder="xxx" style="height:2.5pc;">
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-sm-12">
+        <select class="form-select">
+          <option selected disabled>Categoria</option>
+          <option value="1">Infantil</option>
+          <option value="2">Adulto</option>
+          <option value="3">Masculino</option>
+          <option value="3">Feminimo</option>
+        </select>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-12 d-grid gap-2">
+        <button type="button" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
